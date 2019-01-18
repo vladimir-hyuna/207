@@ -12,9 +12,9 @@
 // Grids (choose one)
 // @include foundation-xy-grid-classes;
 // @include foundation-grid;
-$global-flexbox: true;
-@include foundation-flex-grid;
-@include foundation-flex-classes;
+// $global-flexbox: true;
+// @include foundation-flex-grid;
+// @include foundation-flex-classes;
 
 
 // Generic components
@@ -58,7 +58,7 @@ $global-flexbox: true;
 
 // Helpers
 //@include foundation-float-classes;
-@include foundation-flex-classes;
+// @include foundation-flex-classes;
 // @include foundation-visibility-classes;
 //@include foundation-prototype-classes;
 
