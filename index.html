@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>sitename</title>
+	<link rel="icon" type="image/png" href="images/favicon.png" data-csp="header-favicon">
+	<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+	<link rel="stylesheet" href="css/app.min.css">
+</head>
+<body>
+<!-- header -->
+	<header class="header" data-smooth-scroll>
+		<div class="wrapper">
+			<div class="main-logo">
+				<a class="main-logo__link" href="#home">
+					<img src="images/logo.png" alt="logo">
+					<span>Sitename</span>
+				</a>
+			</div>
+			<nav class="nav">
+				<ul class="main-navigation">
+					<li class="main-navigation__item">
+						<a class="main-navigation__link" href="#home">home</a>
+					</li>
+					<li class="main-navigation__item">
+						<a class="main-navigation__link" href="#services">Services</a>
+					</li>
+					<li class="main-navigation__item">
+						<a class="main-navigation__link" href="#who-we-are">Who We Are</a>
+					</li>
+					<li class="main-navigation__item">
+						<a class="main-navigation__link" href="#contact">contact</a>
+					</li>
+				</ul>
+				<button class="hamburger">
+					<span class="hamburger__element"></span>
+				</button>
+			</nav>
+		</div>
+	</header>
+<!-- /header -->
+<main>
+<!-- home -->
+	<section class="home" id="home" data-smooth-scroll>
+		<h1 class="home__title ">Sitename - Your VPN and Streaming Media Center</h1>
+		<h5 class="home__sub-title">Giving our customers the best in streaming media services and high tech VPN services.</h5>
+		<a href="#contact" class="btn home__btn">Learn more</a>
+	</section>
+<!-- home -->
+<!-- services -->
+	<section class="services" id="services">
+		<h2 class="services__title">Services</h2>
+		<ul class="services__list">
+			<li class="services__item">
+				<img src="images/i-services-1.png" alt="icon">
+				<div>
+					<h4>Accessible Anytime, Anywhere</h4>
+					<p>You can use our services from anywhere in the world and on any device you may own.</p>
+				</div>
+			</li>
+			<li class="services__item">
+				<img src="images/i-services-2.png" alt="icon">
+				<div>
+					<h4>What Makes Us Unique?</h4>
+					<p>We’ve made our services chock full of the best time-saving features without making consumers pay an arm and a leg to use them.</p>
+				</div>
+			</li>
+			<li class="services__item">
+				<img src="images/i-services-3.png" alt="icon">
+				<div>
+					<h4>Our Interface is Easy</h4>
+					<p>Instead of forcing you to spend hours trying to sort through software, we’ve made our apps easy to use and understand.</p>
+				</div>
+			</li>
+		</ul>
+	</section>
+<!-- services -->
+<!-- who-we-are -->
+	<section class="about" id="who-we-are">
+		<h2>Who We Are</h2>
+		<div class="about__container">
+			<div class="about__text" data-smooth-scroll>
+				<h4>What’s Our Mission?</h4>
+				<p>To give consumers access to the best VPN services and the most extensive media library available.</p>
+				<a href="#contact" class="btn">Contact us</a>
+			</div>
+			<div class="about__image">
+				<img src="images/img-about.jpg" alt="Team">
+			</div>
+		</div>
+	</section>
+<!-- who-we-are -->
+<!-- contact -->
+<section class="contact" id="contact">
+	<h2>Contact</h2>
+	<div class="contact__container">
+		<div class="contact__address">
+			<h3>Contact Our Customer Care Pros</h3>
+			<p>Whether you have a question or you need help with our services, feel free to call or email us.</p>
+			<div id="addressContainer">
+			</div>
+			<ul>
+				<li> <span>Email : <a class="email" href="mailto:support@sentivenlimited.com">support@sentivenlimited.com</a></span>
+				</li>
+				<li><span>Phone : </span><a class="email" href="tel:020 3151 4163">020 3151 4163</a></li>
+			</ul>
+		</div>
+		<div class="contact__form">
+			<form class="form" id="contactForm" method="post" action="#">
+				<div class="form__group">
+					<div class="form__input">
+						<input type="text" name="name" placeholder="Your Name" required>
+					</div>
+					<div class="form__input">
+						<input type="email" name="email" placeholder="Your Email" required>
+					</div>
+				</div>
+				<div class="form__group">
+					<div class="form__textarea">
+						<textarea name="message" rows="10" placeholder="Question / Comment" required></textarea>
+					</div>
+				</div>
+				<div>
+					<button class="btn"><span>Send </span></button>
+					<p id="formMessage"></p>
+				</div>
+			</form>
+		</div>
+	</div>
+</section>
+<!-- contact -->
+</main>
+
+<!-- footer -->
+	<footer class="footer text-center">
+		<p>
+			<script>
+				var date = new Date;
+				document.write("&copy; ", date.getFullYear(), " Sitename - Your VPN and Streaming Media Center");
+			</script>
+		</p>
+	</footer>
+<!-- footer -->
+<script src="js/app.min.js"></script>
+</body>
+</html>
